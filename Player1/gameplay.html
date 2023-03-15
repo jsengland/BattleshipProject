@@ -1,0 +1,58 @@
+<!--
+	Battleship Part 4 - Multiplayer Battleship
+	Author: Jason England
+	Class: CSCE 315
+	Professor: Nwanze
+	Date Due: 12/7/2022
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta charset="utf-8">
+	<title>Battleship - Gameplay Player1</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href='assets/css/style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div>
+		<h1>Battleship - Player 1</h1>
+	</div>
+	<div>
+		<h2>UserName: </h2>
+	</div>	
+	<div id="username" class="userText">
+		<h2></h2>
+	</div>
+	<div id="buttonDiv">
+		<input type="button" id="btn" value="Reset Game">
+	</div>
+	<h2 id="msgBoardTitle" class="rightSide">Message Board:</h2>
+	<br><br><br>
+	<div id="messageBoardDiv" class="rightSide msgBoard">
+	</div>
+
+	<div>
+		 <table id="boardTable" class="table-width">
+			<tr>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<table id="otherPlayerTable" class="table-width rightSide pushDown">
+		   <tr>
+		   </tr>
+	   </table>
+   </div>
+   <script type="text/javascript" src="http://127.0.0.1:3000/socket.io/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript"	src="assets/js/models.js"></script>
+	<script type="text/javascript"	src="assets/js/app.js"></script>
+	<script type="text/javascript"	src="assets/js/view.js"></script>
+	<script type="text/javascript"	src="assets/js/listeners.js"></script>
+	<script type="text/javascript"	src="assets/js/mySocket.js"></script>
+</body>
+</html>

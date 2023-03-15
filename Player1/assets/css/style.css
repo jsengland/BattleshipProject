@@ -1,0 +1,99 @@
+/*
+	Battleship Part 3 - Moves Server w/ Extra Credit
+    Author: Jason England
+	Class: CSCE 315
+	Professor: Nwanze
+	Date Due: 11/15/2022
+*/
+
+body {
+	font-family: 'Signika', sans-serif;
+	font-size: 125%;
+	background-color:cadetblue;
+	animation: slideRight 0.5s;
+}
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+table td, th {
+	border: 1px solid black;
+}
+
+.Cruiser {
+	background-image: url('../images/cruiser.jpg');
+}
+.Submarine {
+	background-image: url('../images/submarine.jpg');
+}
+.Destroyer {
+	background-image: url('../images/destroyer.jpg');
+}
+.Battleship {
+	background-image: url('../images/battleship.jpg');
+}
+
+.vessel {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 3vw;
+	min-width: 5vw;
+	margin: 0px 12px;
+	text-align: center;
+	color: #ffffff;
+}
+.missed {
+	background-color: #ff0000;
+}
+.hit {
+	background-color: #13AB20;
+}
+.userText{
+	color: #9952a5;
+}
+.table-width {
+	width: 300px;
+}
+.rightSide {
+	position: absolute;
+	left: 65%;
+}
+.msgBoard{
+	font-size: 150%;
+	background-color: coral;
+	width: 25vw;
+	height: 50vh;
+	border: 4px solid black;
+	overflow: scroll;
+}
+.fade{
+	animation: fadeIn 1s;
+}
+.otherPlayerVessel {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 1vw;
+	min-width: 3vw;
+	margin: 0px 12px;
+	text-align: center;
+	color: #ffffff;
+}
+.pushDown {
+	position: absolute;
+	top: 87%;
+}
+
+
+/*Found information on fadeIn animation at "https://blog.hubspot.com/website/css-fade-in"*/
+@keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+/*Found information on sliding animation at "https://stackoverflow.com/questions/29524104/how-can-i-delay-the-start-of-a-css-animation"*/
+@keyframes slideRight {
+	0% {transform: translateX(-125%);}
+	100% {transform: translateX(0%);}   
+}
