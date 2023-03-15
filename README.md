@@ -1,7 +1,7 @@
 # BattleshipProject
 
 ### Description
-This project will run two seperate games of an alternative version of battleship. This game creates a server for both players to play at the same time and allow high scores to be stored for any given username. Additionally, using sockets each player can see what moves the other player has made so far in their game. This project uses Node.js and MongoDB.
+This project will run two separate games of an alternative version of battleship. This game creates a server for both players to play at the same time and allow high scores to be stored for any given username. Additionally, using sockets each player can see what moves the other player has made so far in their game. This project uses Node.js and MongoDB.
 
 
 ### How to run this program
