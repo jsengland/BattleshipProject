@@ -1,7 +1,5 @@
 # BattleshipProject
 
-Repository of each completed and working program written to find the solutions for [Project Euler](https://projecteuler.net/).
-
 <h3>How to run this program</h3>
 
 - Ensure you have Node.js installed on your device.
